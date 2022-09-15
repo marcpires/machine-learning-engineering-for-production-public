@@ -57,5 +57,5 @@ jobs:
          title: Title
          body: body
          assignees: 'marcpires'
-         run: |
-            echo ${{ steps.issue.outputs.results }}
+      - run: |
+         echo ${{ steps.issue.outputs.results }}
